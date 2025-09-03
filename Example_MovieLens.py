@@ -2,7 +2,7 @@
 __author__ = 'Who ?'
 
 import pandas as pd
-
+print("alexis")
 # Load users info
 userHeader = ['user_id', 'gender', 'age', 'ocupation', 'zip']
 users = pd.read_csv('dataSet/users.txt', engine='python',
