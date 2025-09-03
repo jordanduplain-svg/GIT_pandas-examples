@@ -2,12 +2,12 @@
 __author__ = 'Who ?'
 
 import pandas as pd
-print("Jordan")
+
 # Load users info
 userHeader = ['user_id', 'gender', 'age', 'ocupation', 'zip']
 users = pd.read_csv('dataSet/users.txt', engine='python',
                     sep='::', header=None, names=userHeader)
-
+print('Jordan')
 # print 10 first users
 print('# 10 first users: \n%s' % users[:10])
 print('\n==================================================================\n')
