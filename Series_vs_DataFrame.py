@@ -9,7 +9,7 @@ spanishPlayers = pd.Series(
      'Iniesta', 'Villa'], index=[1, 15, 3, 5, 11, 14, 16, 8, 18, 6, 7])
 print("Spanish Football Players: \n%s" % spanishPlayers)
 print('\n==================================================================\n')
-
+"""je m'apppelle Jordan"""
 
 # series through dictionary
 dictPlayers = {1: 'Casillas', 15: 'Ramos', 3: 'Pique', 5: 'Puyol', 11: 'Capdevila', 14: 'Xabi Alonso',
